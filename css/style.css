@@ -1,0 +1,146 @@
+.main-container{
+          text-align:justify;
+          background-color:aliceblue;
+          display:flex;
+}
+   .box{
+          width:150px;
+          height:150px;
+          font-size:8em;
+          border-radius:17px;
+}
+    #box1{
+          background-color:pink;
+          transition:width 2s;
+ }          
+    #box2{
+          background-color:yellowgreen;
+          transition:width 2s;   
+}
+    #box3{
+          background-color:lightblue;
+          transition:width 2s;    
+}
+    #box4{
+          background-color:lightcoral;
+          transition:width 2s;    
+}
+#box1:hover{
+      background-color: greenyellow;
+      width:400px;
+      height:300px;
+      display:flex;
+}
+#box2:hover{
+      background-color: greenyellow;
+      width:400px;
+      height:300px;
+}
+#box3:hover{
+      background-color: greenyellow;
+      width:400px;
+      height:300px;
+}
+#box4:hover{
+      background-color: greenyellow;
+      width:400px;
+      height:300px;
+}
+.newboxs{
+      width:150px;
+      height:150px;
+      font-size:8em;
+      border-radius:16px;
+      background-color:blueviolet;
+      transition:width 2s;
+}
+#b1{
+      background-color: blue;
+      transition-timing-function: linear;
+}
+#b2{
+      background-color: brown;
+      transition-timing-function: linear;
+}
+#b3{
+      background-color: thick goldenrod;
+      transition-timing-function: linear;
+}
+#b4{
+      background-color: chocolate;
+      transition-timing-function: linear;
+}
+#b1:hover{
+      background-color:pink;
+      width:200px;
+      height:300px;
+
+}
+#b2:hover{
+      background-color:yellow;
+      width:200px;
+      height:300px;
+}
+#b3:hover{
+      background-color:red;
+      width:200px;
+      height:300px;
+}
+#b4:hover{
+      background-color: green;
+      width:200px;
+      height:300px;
+}
+.newrotate{
+      width:100px;
+      height:100px;
+      border-radius:16px;
+      background-color: rgb(255, 0, 136);
+      transition:width 2s,height 2s,transform 2s;
+}
+#newrotate:hover{
+      width:400px;
+      height:400px;
+      background-color:rgb(144, 238, 150);
+      transform:rotate(180deg) ;
+}
+.scrolltext{
+      font-family: 'Lucida Sans';
+      font-style: oblique;
+      font-size: 30px;
+      width: 100%;
+      color:rgb(239, 4, 82);
+      overflow: hidden;
+      box-sizing: border-box;
+      border: 2px solid rgb(127, 209, 5);
+      white-space: nowrap;
+      background-color: rgb(209, 182, 233);
+}
+.scrolltext p{ 
+      padding-left: 100%;
+      animation-name: scroll-right-left;
+      animation-duration: 15s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+}
+@keyframes scroll-right-left
+{
+      from{transform:translateX(100%);}
+        to{transform:translateX(-100%);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
